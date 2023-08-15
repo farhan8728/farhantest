@@ -1,0 +1,97 @@
+.body{
+    height: 720px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+}
+.profile_pic{
+    color: #4C535F;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 38px;
+    padding-left: 53px;
+}
+.pic_upload{
+    width: 239px;
+    height: 52.938px;
+    border-radius: 18px;
+    border: 1px dashed #4C535F;
+    background: #EDF2F6;
+    margin-left: 53px;
+    padding: 10px;
+
+}
+.input_field{
+    margin-left: 53px;
+    margin-top: 15px;
+}
+.name{
+    color: #4C535F;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 112.4%;
+}
+.input_type{
+    width: 446.359px;
+    height: 52px;
+    border-radius: 8px;
+    border: 1px solid #E0E4EC;
+    background: linear-gradient(0deg, #EDF2F6 0%, #EDF2F6 100%), #FFF;
+    padding-left: 10px;
+    color: #8D98AA;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 112.4%;
+    margin-top: 8px;    
+}
+
+.input_field_right{
+    margin-top: 15px;
+}
+
+.profile_save{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 195px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #2985FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-left: 53px;
+    cursor: pointer;
+}
+.reset{
+    
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 195px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #2985FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-left: 53px;
+    cursor: pointer;
+    color: #8D98AA;
+}

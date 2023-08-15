@@ -1,0 +1,164 @@
+.bgColor{
+    width: 100%;
+    height: 513px;
+    
+    background-color: #4A6FB6;
+}
+
+.welcome{
+    color: #fff;
+    text-align: center;
+    font-family: Helvetica Rounded;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-top: 36px;
+}
+
+.welcome_para{
+    text-align: center;
+    font-family: Helvetica Light;
+    font-size: 14px;
+    font-style: normal;
+    color: #fff;
+    opacity: .8;
+}
+
+.register_field{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 7px 23px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    width: 452.5px;
+    height: 778px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.register_with{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: center;
+    margin-top: 45px;
+    color: var(--gray-gray-700, #2D3748);
+}
+
+.social_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.fb{
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    border: 1px solid #E2E8F0;
+}
+.google{
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    border: 1px solid #E2E8F0;
+    margin-left: 15px;
+}
+.or{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+    color: var(--gray-gray-400, #A0AEC0);
+    margin-top: 5px;
+}
+.name{
+    width: 350px;
+    height: 50px;
+    padding: 0px 20px;
+    border-radius: 15px;
+    border: 1px solid #E2E8F0;
+    margin-top: 6px;
+    color: #797272;
+
+}
+.input_field{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #797272;
+}
+.second_input{
+    margin-top: 24px;
+}
+
+.name:focus {
+    outline-color: #4A6FB6;
+}
+
+.sign_up{
+    display: flex;
+    width: 350px;
+    height: 45px;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #3D60A6;
+    margin-top: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+.sign_in{
+    color: #4A6FB6;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.account{
+    color: var(--gray-gray-400, #A0AEC0);
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+
+@media screen and (max-width:1199px){
+    .register_field{
+        margin-top: 90px;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1500px){
+    .register_field{
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width:1501px) and (max-width:1920px){
+    .register_field{
+        margin-top: 55px;
+    }
+}
+
+@media screen and (min-width:1920px){
+    .register_field{
+        margin-top: -445px;
+    }
+}

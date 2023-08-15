@@ -1,0 +1,31 @@
+.left{
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+    width: 210px;
+    height: 1024px;
+    margin-left: 5rem;
+    
+}
+.previous{
+    background: #fff;
+    display: flex;
+    text-decoration: none;
+    color: #566B8B;;
+    padding: 16px;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+.active{
+    background: #2985FC;
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    padding: 16px;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 700;
+}
